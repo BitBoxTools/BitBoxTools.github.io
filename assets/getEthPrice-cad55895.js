@@ -1,1 +1,0 @@
-import{a as e}from"./index-32b68d08.js";const o=async()=>{try{return(await e.post("https://mainnet.era.zksync.io/",{id:42,jsonrpc:"2.0",method:"zks_getTokenPrice",params:["0x0000000000000000000000000000000000000000"]})).data.result}catch(t){return console.log(t),0}};export{o as g};
